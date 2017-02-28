@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Node-Red-February
+  host: Node-Red-February
+  disk_quota: 1024M
+  services:
+  - Speech To Text-zi
+  - Node-Red-February-cloudantNoSQLDB
